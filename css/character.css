@@ -1,0 +1,25 @@
+.character_container
+{
+    padding-left: 4%;
+    padding-right: 4%;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    gap:3%;
+}
+
+.character
+{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character_img img
+{
+    width: 100%;
+}
+
+

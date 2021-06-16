@@ -1,0 +1,9 @@
+
+
+instagram.png : https://www.stickpng.com/img/icons-logos-emojis/tech-companies/instagram-logo
+facebook.png : https://www.stickpng.com/img/icons-logos-emojis/tech-companies/facebook-icon
+twitter.png : https://www.stickpng.com/img/icons-logos-emojis/tech-companies/twitter-logo
+gameplaydisplay1.png : https://www.brawlhalla.com/c/uploads/2020/02/Screenshots_Gameplay3.png
+
+
+character folder : https://www.brawlhalla.com/legends/
