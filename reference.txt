@@ -4,6 +4,7 @@ instagram.png : https://www.stickpng.com/img/icons-logos-emojis/tech-companies/i
 facebook.png : https://www.stickpng.com/img/icons-logos-emojis/tech-companies/facebook-icon
 twitter.png : https://www.stickpng.com/img/icons-logos-emojis/tech-companies/twitter-logo
 gameplaydisplay1.png : https://www.brawlhalla.com/c/uploads/2020/02/Screenshots_Gameplay3.png
-
+LeftArrow.jpg : https://www.pngfind.com/mpng/iRRmmii_png-file-svg-left-arrow-svg-transparent-png/
+RightArrow.jpg : https://www.pngfind.com/mpng/Thimib_download-high-resolution-black-arrow-hd-png-download/
 
 character folder : https://www.brawlhalla.com/legends/
