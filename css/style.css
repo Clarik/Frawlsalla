@@ -179,8 +179,8 @@ header
 }
 
 #img_event{
-  width: 1000px;
-  height: 500px;
+  width: 800px;
+  height: 350px;
 }
 
 .body_screenshot_slider{
@@ -194,11 +194,12 @@ header
   margin-top: 240px;
 }
 
-.body_screenshot_slider_content{
+.body_screenshot_slider_content img{
   width: 1000px;
   height: 500px;
   margin: 0px;
   display: none;
+  position: relative;
 }
 
 img.active{
