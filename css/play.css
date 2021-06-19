@@ -1,6 +1,15 @@
-.form {
+.form_container {
+    padding-left: 40%;
+    padding-right: 40%;
+    text-align: center;
     margin-top: 25px;
-    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.form {
+    background-color: coral;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .msg {
