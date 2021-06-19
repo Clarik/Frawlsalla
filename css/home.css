@@ -1,0 +1,70 @@
+section{
+    padding: 3rem 3rem;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+}
+
+.game_motto{
+}
+
+.body_home_first_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.body_home_content {
+    width: 50%;
+    background-color: lawngreen;
+}
+
+.body_home_content_information {
+    background-color: coral;
+    padding: 10%;
+}
+
+.body_home_content img {
+    width: 100%;
+    padding: 0%;
+}
+
+.body_slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sliderContainer {
+    display: flex;
+    position: relative;
+}
+
+#slider {
+    position: relative;
+    width: 60vw;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+#slide{
+    position: relative;
+}
+
+#slide img{
+    display: flex;
+    width: 60vw;
+    position: relative;
+}
+
+#slides {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+

@@ -1,19 +1,26 @@
 function validate() {
-    document.getElementById('msg').innerText = ""
-    var name = document.getElementById('name').value;
-    var email = document.getElementById('email').value;
-    var pass = document.getElementById('password').value;
-    var comPass = document.getElementById('com-pass').value;
+    try{
+        document.getElementById('msg').innerText = ""
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var pass = document.getElementById('password').value;
+        var comPass = document.getElementById('com-pass').value;
 
-    if (validateName(name) == false) return;
-    if (validateEmail(email) == false) return;
-    if (validateGender() == false) return;
-    if (validatePassword(pass, comPass) == false) return;
-    if (document.getElementById('checkbox').checked == false) {
-        alert("You must agree to the terms & conditions")
+        if (validateName(name) == false) return;
+        if (validateEmail(email) == false) return;
+        if (validateGender() == false) return;
+        if (validatePassword(pass, comPass) == false) return;
+        if (document.getElementById('checkbox').checked == false) {
+            alert("You must agree to the terms & conditions")
+            return;
+        }
+        alert("You've sucessfully registered to Frawlsalla!");
+        window.location.replace('../html/home.html');
+    }catch (error) {
         return;
     }
-    document.getElementById('msg').innerText = "Registration Complete!"
+    return;
+    
 }
 
 function validateName(text) {
@@ -100,7 +107,7 @@ function validatePassword(text, comText) {
     }
 
     if (password.match(comPass) == false) {
-        alert("Comfirm Password do not match")
+        alert("Confirm Password do not match")
         return false
     }
 

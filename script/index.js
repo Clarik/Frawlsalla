@@ -1,15 +1,13 @@
 let slideWidth = $('#slide').width()
 let slideDuration = 1000
 let slides      = $('#slides')
-
-slides.css({
-    "margin-left": -slideWidth
-})
+let waitTime = 7500
 $('#slide:last-child').prependTo($('#slides'))
 
-slidesDoNothing(8000)
+slidesDoNothing(waitTime)
 
 function sliderMoveRight(){
+    let slideWidth = $('#slide').width()
     slides.animate({
         left: -slideWidth
     }
@@ -18,7 +16,7 @@ function sliderMoveRight(){
             let firstChild  = $('#slide:first-child')
             firstChild.appendTo(slides)
             slides.css({"left": ""})
-            slidesDoNothing(8000)
+            slidesDoNothing(waitTime)
         }
     )
 }

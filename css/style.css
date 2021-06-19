@@ -14,11 +14,17 @@ header {
     width: 33%;
 }
 
-
 /* Delete This after got logo */
 
 .logo {
     text-align: center;
+}
+
+.dropbtn div{
+    width: 2.5rem;
+    height: 0.35rem;
+    background-color: rgb(59, 58, 58);
+    margin: 0.3rem 0.3rem;
 }
 
 .drop_down_menu {
@@ -27,11 +33,10 @@ header {
 }
 
 .drop_down_menu .dropbtn {
-    font-size: 16px;
     border: none;
     outline: none;
     color: black;
-    padding: 14px 16px;
+    padding: 1rem 2rem;
     background-color: inherit;
     margin: 0;
 }
@@ -44,16 +49,18 @@ header {
     display: none;
     position: absolute;
     background-color: rgb(159, 221, 240);
-    min-width: 160px;
+    min-width: 12rem;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
 .drop_down_menu_content a {
+    border-top: 1px solid white;
     color: black;
-    padding-left: 12px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-decoration: none;
     text-align: left;
 }
@@ -67,36 +74,6 @@ header {
     flex-direction: column;
 }
 
-.body_slider {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#leftBtn #rightBtn {
-    position: relative;
-}
-
-#sliderContainer {
-    display: flex;
-}
-
-#slider {
-    width: 960px;
-    overflow: hidden;
-}
-
-#slider img {
-    width: 960px;
-}
-
-#slides {
-    display: flex;
-    position: relative;
-}
 
 .footer {
     background-color: rgb(159, 221, 240);
@@ -114,54 +91,4 @@ header {
 .footer div a img {
     width: 40px;
     padding: 0.5%;
-}
-
-.body_home_first_content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.body_home_content {
-    width: 50%;
-}
-
-.body_home_content_information {
-    background-color: coral;
-    padding: 10%;
-}
-
-.body_home_content img {
-    width: 100%;
-    padding: 5%;
-}
-
-#img_event {
-    width: 800px;
-    height: 350px;
-}
-
-.body_screenshot_slider {
-    display: flex;
-    justify-content: center;
-}
-
-.body_screenshot_slider img {
-    width: 60px;
-    height: 60px;
-    margin-top: 240px;
-}
-
-.body_screenshot_slider_content img {
-    width: 1000px;
-    height: 500px;
-    margin: 0px;
-    display: none;
-    position: relative;
-}
-
-img.active {
-    display: block;
 }
