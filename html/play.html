@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,11 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/play.css">
 </head>
+
 <body>
-    
+
     <body>
-   
+
         <header>
             <div class="header">
                 <div class="drop_down_menu">
@@ -27,51 +29,48 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="header">
                 <!-- Change This after got logo  -->
                 <div class="logo">
-                    Logo    
+                    Logo
                 </div>
             </div>
-            
+
             <div class="header">
-    
+
             </div>
         </header>
 
-    <div>
-        <form class="form">
-            Name:<br>
-            <input type="text" name="name"><br>
-            <br>
-            Email:<br>
-            <input type="email" name="email"><br>
-            <br>
-            Gender:<br>
-            <input type="radio" name="gender" value="male"> Male
-            <input type="radio" name="gender" value="female"> Female
-            <input type="radio" name="gender" value="other"> Other
-            <br><br>
-            Password:<br>
-            <br>
-            <input type="password" name="password"><br>
-            Comfirm Password:<br>
-            <br>
-            <input type="password" name="Comfirm-password"><br>
-            <br>
-            Account type:<br>
-            <select name="Account">
-                <option value="parent">Parent</option>
-                <option value="Premium">Premium</option>
-            </select> <br>
-            <br>
-           <input type="checkbox">
-            Agreement terms & conditions<br>
-            <br>
-    
-            <input type="submit" value="Register">
-        </form>
-    </div>
-</body>
+        <div>
+            <form class="form" onsubmit="validate(); return false;">
+                Name:<br>
+                <input type="text" name="name" id="name"><br>
+                <br> Email:
+                <br>
+                <input type="text" name="email" id="email"><br>
+                <br> Gender:
+                <br>
+                <input type="radio" name="gender" id="male"> Male
+                <input type="radio" name="gender" id="female"> Female
+                <input type="radio" name="gender" id="other"> Other
+                <br>
+                <br>Password:
+                <br>
+                <input type="password" name="password" id="password"><br>
+                <br> Comfirm Password:
+                <br>
+                <input type="password" name="Comfirm-password" id='com-pass'><br>
+                <br>
+                <input type="checkbox" id='checkbox'> Agreement terms & conditions<br>
+                <br>
+                <div class='msg' id="msg">
+
+                </div>
+                <input type="submit" value="Register">
+            </form>
+        </div>
+        <script src="../script/play.js"></script>
+    </body>
+
 </html>
