@@ -26,6 +26,11 @@
     position: relative;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 img.active {
     display: block;
 }

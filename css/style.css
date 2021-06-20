@@ -10,9 +10,24 @@ header {
     width: 100%;
 }
 
+footer {
+    position: sticky;
+}
+
+p {
+    /*responsive text*/
+    font-size: 1.1vw;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
 .header {
     width: 33%;
 }
+
 
 /* Delete This after got logo */
 
@@ -20,7 +35,7 @@ header {
     text-align: center;
 }
 
-.dropbtn div{
+.dropbtn div {
     width: 2.5rem;
     height: 0.35rem;
     background-color: rgb(59, 58, 58);
@@ -73,7 +88,6 @@ header {
     display: flex;
     flex-direction: column;
 }
-
 
 .footer {
     background-color: rgb(159, 221, 240);
