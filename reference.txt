@@ -5,4 +5,13 @@ gameplaydisplay1.png : https://www.brawlhalla.com/c/uploads/2020/02/Screenshots_
 LeftArrow.jpg : https://www.pngfind.com/mpng/iRRmmii_png-file-svg-left-arrow-svg-transparent-png/
 RightArrow.jpg : https://www.pngfind.com/mpng/Thimib_download-high-resolution-black-arrow-hd-png-download/
 
+Logo image and Logo folder: 
+https://www.pngix.com/viewpng/hJTwJi_axe-vector-png-battle-axe-logo-png-transparent/
+https://www.kindpng.com/imgv/mmibmJ_moon-fill-night-half-moon-vector-png-transparent/
+https://pngtree.com/free-star-vectors
+
 character folder : https://www.brawlhalla.com/legends/
+
+highlight folder : https://www.brawlhalla.com/news/patch-notes/
+
+events folder: https://www.brawlhalla.com/news/patch-notes/

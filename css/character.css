@@ -1,20 +1,32 @@
+section{
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+
 .character_container {
-    margin-top: 20px;
-    margin-bottom: 30%;
-    padding-left: 4%;
-    padding-right: 4%;
-    display: grid;
+    display: flex;
+    flex-direction:row;
+    display: -webkit-flex;
     justify-content: space-around;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: auto;
-    gap: 3%;
+    align-content: center;
+    flex-flow: row wrap;
 }
 
 .character {
-    background-color: cornflowerblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 30%;
+    margin: 1rem;
+    order: 1;
+    transition: 0.2s;
+}
+
+.character:hover{
+    transition: 0.2s;
+    transform: scale(0.9);
+}
+
+.character_info{
+    text-align: center;
 }
 
 .character_img img {

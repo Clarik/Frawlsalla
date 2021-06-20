@@ -2,96 +2,92 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Play Now!</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/play.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Play Now!</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/play.css">
 </head>
 
 <body>
+	<header>
+		<div class="header">
+			<div class="drop_down_menu">
+				<button class="dropbtn">
+					<div></div>
+					<div></div>
+					<div></div>
+				</button>
+				<div class="drop_down_menu_content" id="drop_down">
+					<a href="./home.html">Home</a>
+					<a href="./screenshot.html">Screenshots</a>
+					<a href="./event.html">Events</a>
+					<a href="./character.html">Characters</a>
+					<a href="./play.html">Play Now</a>
+				</div>
+			</div>
+		</div>
 
-    <body>
+		<a href="home.html" class="logo">
+			<img src="../logo/Frawlsalla.png">
+		</a>
+	</header>
 
-        <header>
-            <div class="header">
-                <div class="drop_down_menu">
-                    <button class="dropbtn">
-                        Menu
-                    </button>
-                    <div class="drop_down_menu_content">
-                        <a href="./home.html">Home</a>
-                        <a href="./screenshot.html">Screenshots</a>
-                        <a href="./event.html">Events</a>
-                        <a href="./character.html">Characters</a>
-                        <a href="./play.html">Play Now</a>
-                    </div>
-                </div>
-            </div>
+	<div class="form_container">
+		<h1>Play Now!</h1>
+		<form class="form" onsubmit="validate(); return false;">
+			Name:<br>
+			<input type="text" name="name" id="name"><br>
+			<br> Email:
+			<br>
+			<input type="text" name="email" id="email"><br>
+			<br> Gender:
+			<br>
+			<input type="radio" name="gender" id="male"> Male
+			<input type="radio" name="gender" id="female"> Female
+			<br>
+			<br>Password:
+			<br>
+			<input type="password" name="password" id="password"><br>
+			<br> Comfirm Password:
+			<br>
+			<input type="password" name="Comfirm-password" id='com-pass'><br>
+			<br>
+			<input type="checkbox" id='checkbox'> Agreement terms & conditions<br>
+			<br>
+			<div class='msg' id="msg">
 
-            <div class="header">
-                <!-- Change This after got logo  -->
-                <div class="logo">
-                    Logo
-                </div>
-            </div>
+			</div>
+			<input type="submit" value="Register">
+		</form>
+	</div>
 
-            <div class="header">
+	<footer class="footer">
+		<div class="footer_content">
+			<p>
+				&copy; 2021 Frawlsalla Teams. All Rights Reserved.
+			</p>
+		</div>
+		<div class="footer_content">
+			<p>
+				For more information
+			</p>
+			<div class="footer-logo">
+				<a href="http://instagram.com">
+					<img src="../img/instagram.png">
+				</a>
+				<a href="http://facebook.com">
+					<img src="../img/facebook.png">
+				</a>
+				<a href="http://twitter.com">
+					<img src="../img/twitter.png">
+				</a>
+			</div>
+		</div>
+	</footer>
 
-            </div>
-        </header>
-
-        <div class="form_container">
-            <h1>Play Now!</h1>
-            <form class="form" onsubmit="validate(); return false;">
-                Name:<br>
-                <input type="text" name="name" id="name"><br>
-                <br> Email:
-                <br>
-                <input type="text" name="email" id="email"><br>
-                <br> Gender:
-                <br>
-                <input type="radio" name="gender" id="male"> Male
-                <input type="radio" name="gender" id="female"> Female
-                <br>
-                <br>Password:
-                <br>
-                <input type="password" name="password" id="password"><br>
-                <br> Comfirm Password:
-                <br>
-                <input type="password" name="Comfirm-password" id='com-pass'><br>
-                <br>
-                <input type="checkbox" id='checkbox'> Agreement terms & conditions<br>
-                <br>
-                <div class='msg' id="msg">
-
-                </div>
-                <input type="submit" value="Register">
-            </form>
-        </div>
-
-        <footer class="footer">
-            <p>
-                For more information
-            </p>
-            <div class="footer-logo">
-                <a href="http://instagram.com">
-                    <img src="../img/instagram.png">
-                </a>
-                <a href="http://facebook.com">
-                    <img src="../img/facebook.png">
-                </a>
-                <a href="http://twitter.com">
-                    <img src="../img/twitter.png">
-                </a>
-            </div>
-            <p>
-                2021 Frawlsalla. All Rights Reserved.
-            </p>
-        </footer>
-
-        <script src="../script/play.js"></script>
-    </body>
+	<script src="../script/play.js"></script>
+</body>
 
 </html>

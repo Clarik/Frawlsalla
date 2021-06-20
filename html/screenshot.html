@@ -11,13 +11,16 @@
 </head>
 
 <body>
+
   <header>
     <div class="header">
       <div class="drop_down_menu">
         <button class="dropbtn">
-          Menu
+          <div></div>
+          <div></div>
+          <div></div>
         </button>
-        <div class="drop_down_menu_content">
+        <div class="drop_down_menu_content" id="drop_down">
           <a href="./home.html">Home</a>
           <a href="./screenshot.html">Screenshots</a>
           <a href="./event.html">Events</a>
@@ -27,18 +30,13 @@
       </div>
     </div>
 
-    <div class="header">
-      <!-- Change This after got logo  -->
-      <div class="logo">
-        Logo
-      </div>
-    </div>
+    <a href="home.html" class="logo">
+      <img src="../logo/Frawlsalla.png">
+    </a>
 
-    <div class="header">
-
-    </div>
   </header>
-
+  
+  
   <div class="body_screenshot">
     <h1 class="text">
       Gameplay Screenshots
@@ -59,24 +57,30 @@
     </div>
   </div>
 
+
   <footer class="footer">
-    <p>
-      For more information
-    </p>
-    <div class="footer-logo">
-      <a href="http://instagram.com">
-        <img src="../img/instagram.png">
-      </a>
-      <a href="http://facebook.com">
-        <img src="../img/facebook.png">
-      </a>
-      <a href="http://twitter.com">
-        <img src="../img/twitter.png">
-      </a>
+    <div class="footer_content">
+      <p>
+        &copy; 2021 Frawlsalla Teams. All Rights Reserved.
+      </p>
     </div>
-    <p>
-      2021 Frawlsalla. All Rights Reserved.
-    </p>
+    <div class="footer_content">
+      <p>
+        For more information
+      </p>
+      <div class="footer-logo">
+        <a href="http://instagram.com">
+          <img src="../img/instagram.png">
+        </a>
+        <a href="http://facebook.com">
+          <img src="../img/facebook.png">
+        </a>
+        <a href="http://twitter.com">
+          <img src="../img/twitter.png">
+        </a>
+      </div>
+    </div>
+    
   </footer>
 
   <script src="../js/jquery-3.6.0.js"></script>

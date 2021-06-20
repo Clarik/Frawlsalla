@@ -1,45 +1,60 @@
-@media only screen and (max-width: 800px) {}
 
-body {
-    margin: 0
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+section{
+    margin: 2vw 10vw 0vw;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 header {
     display: flex;
-    background-color: rgb(159, 221, 240);
+    justify-content: space-between;
+    background-color: #39A6A3;
+    color:  #231E23;
     width: 100%;
+    font-size: 1.1vw;
+}
+
+body {
+    margin: 0;
+    color:  #231E23;
+    background-color: #f4f4f4;
+    
 }
 
 footer {
     position: sticky;
 }
 
-p {
-    /*responsive text*/
-    font-size: 1.1vw;
-}
 
 img {
     width: auto;
     height: auto;
 }
 
-.header {
-    width: 33%;
-}
-
 
 /* Delete This after got logo */
 
 .logo {
-    text-align: center;
+    margin-right: 2.5rem;
+
+}
+
+.logo img{
+    width: 18rem;
 }
 
 .dropbtn div {
-    width: 2.5rem;
-    height: 0.35rem;
+    width: 1.8rem;
+    height: 0.25rem;
     background-color: rgb(59, 58, 58);
-    margin: 0.3rem 0.3rem;
+    margin: 0.3rem;
 }
 
 .drop_down_menu {
@@ -50,38 +65,35 @@ img {
 .drop_down_menu .dropbtn {
     border: none;
     outline: none;
-    color: black;
     padding: 1rem 2rem;
     background-color: inherit;
     margin: 0;
 }
 
 .drop_down_menu:hover .dropbtn {
-    background-color: rgb(125, 179, 196);
+    background-color: #6eb6a3;
 }
 
 .drop_down_menu_content {
     display: none;
     position: absolute;
-    background-color: rgb(159, 221, 240);
+    background-color: #39A6A3;
     min-width: 12rem;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    
     z-index: 1;
 }
 
 .drop_down_menu_content a {
-    border-top: 1px solid white;
+    border-top: 0.1rem solid white;
     color: black;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 0.6rem 2rem 0.7rem;
+    font-size: 3vh;
     text-decoration: none;
     text-align: left;
 }
 
 .drop_down_menu_content a:hover {
-    background-color: rgb(161, 105, 105);
+    background-color: rgb(125, 179, 196);
 }
 
 .drop_down_menu:hover .drop_down_menu_content {
@@ -89,13 +101,28 @@ img {
     flex-direction: column;
 }
 
-.footer {
-    background-color: rgb(159, 221, 240);
+.center{
     display: flex;
     flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #39A6A3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
     color: white;
     font-size: 17px;
     text-align: center;
+}
+
+.footer_content{
+    margin: auto 3vw;
 }
 
 .footer div a {
@@ -103,6 +130,6 @@ img {
 }
 
 .footer div a img {
-    width: 40px;
-    padding: 0.5%;
+    width: 2rem;
+    padding: 0.5rem;
 }
