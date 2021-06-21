@@ -151,6 +151,7 @@ button{
         justify-content: center;
         font-size: 1.2rem;
         width: inherit;
+        padding: 2vw 2vw;
     }
 
     .body_home_content_information {
@@ -159,7 +160,6 @@ button{
 
     .body_home_content_image_container{
         padding: 0;
-        background-color: sienna;
     }
 
     
@@ -183,8 +183,7 @@ button{
         justify-content: center;
         align-items: center;
         font-size: 1.6rem;
-        
-}
+    }
 
     
 

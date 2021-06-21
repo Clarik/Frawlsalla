@@ -34,34 +34,62 @@
 		</a>
 	</header>
 
-	<div class="form_container">
-		<h1>Play Now!</h1>
-		<form class="form" onsubmit="validate(); return false;">
-			Name:<br>
-			<input type="text" name="name" id="name"><br>
-			<br> Email:
-			<br>
-			<input type="text" name="email" id="email"><br>
-			<br> Gender:
-			<br>
-			<input type="radio" name="gender" id="male"> Male
-			<input type="radio" name="gender" id="female"> Female
-			<br>
-			<br>Password:
-			<br>
-			<input type="password" name="password" id="password"><br>
-			<br> Comfirm Password:
-			<br>
-			<input type="password" name="Comfirm-password" id='com-pass'><br>
-			<br>
-			<input type="checkbox" id='checkbox'> Agreement terms & conditions<br>
-			<br>
-			<div class='msg' id="msg">
+	<section class="title">
+		<div class="center">
+			<h1>PLAY NOW</h1>
+		</div>
+	</section>
 
-			</div>
-			<input type="submit" value="Register">
-		</form>
-	</div>
+	<section class="play_form">
+		<div class="form_container">
+			<form class="form" method="POST" action="../html/home.html">
+				<div class=form_section>
+					<span class="error" id="error_name"></span>
+					<label for="name" class="label">Name</label>
+					<input type="text" name="name" id="name" placeholder="Your name.."><br>
+				</div>
+				<div class=form_section>
+					<span class="error" id="error_email"></span>
+					<label for="email" class="label">Email</label>
+					<input type="text" name="email" id="email" placeholder="Your email.."><br>
+				</div>
+				<div class=form_section>
+					<span class="error" id="error_gender"></span>
+					<label for="gender" class="label">Gender</label>
+					<div class="gender_list">
+						<div>
+							<input type="radio" id="male" name="gender" value="Male"> Male
+						</div>
+						<div>
+							<input type="radio" id="female" name="gender" value="Female"> Female
+						</div>
+					</div>
+				</div>
+				<div class=form_section>
+					<span class="error" id="error_password"></span>
+					<label for="password" class="label">Password</label>
+					<input type="password" name="password" id="password"  placeholder="Password..">
+				</div>
+				<div class=form_section>
+					<label for="com-password" class="label">Confirm Password</label>
+					<input type="password" name="comfirm-password" id="com-pass" placeholder="Confirm Password..">
+				</div>
+				<div class=form_section>
+					<span class="error" id="error_term"></span>
+					<div class=form_section_checkbox>
+						<input type="checkbox" name="checkbox" id="checkbox"> 
+						<label for="checkbox" class="check_box_txt">Agreement terms & conditions</label>
+					</div>
+				</div>
+					
+				<div class="btn_submit">
+					<button type="submit" id="btn_submit">
+						PLAY
+					</button>
+				</div>
+			</form>
+		</div>
+	</section>
 
 	<footer class="footer">
 		<div class="footer_content">
@@ -87,6 +115,7 @@
 		</div>
 	</footer>
 
+	<script src="../script/jquery-3.5.1.js"></script>
 	<script src="../script/play.js"></script>
 </body>
 
